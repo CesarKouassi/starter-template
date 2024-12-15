@@ -24,7 +24,7 @@ export default function Pointer (props :{
             <path d="M13 13l6 6">
              </path></svg>
             <div className="absolute top-full left-full">
-                <div className={twMerge("inline-flex rounded-full font-bold text-sm bg-jaune-orange px-2 rounded-tl-none", color === "purple" && "bg-violet-vif")}>
+                <div className={twMerge("inline-flex rounded-full text-white font-light text-sm bg-jaune-orange px-2 rounded-tl-none", color === "purple" && "bg-violet-vif")}>
                     {name}
                    </div>
             </div>
