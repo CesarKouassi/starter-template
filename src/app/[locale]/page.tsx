@@ -7,7 +7,8 @@ import Integrations from "@/sections/Integrations";
 import Faqs from "@/sections/Faqs";
 import CallToAction from "@/sections/CallToAction";
 import Footer from "@/sections/Footer";
-import { LocaleSelect } from './LocaleSelect';
+import FeaturesApp from "@/components/FeaturesApp";
+
 
 
 export default   function Home() {
@@ -15,18 +16,17 @@ export default   function Home() {
     return (
 
         <>
-       < LocaleSelect />
+       {/* < LocaleSelect /> */}
         <Navbar />
         <Hero />
         <LogoTicker /> 
         <Introduction />
         <Features />
+        <FeaturesApp />
         <Integrations />
         <Faqs />
         <CallToAction />
         <Footer />
-      
-
         </>
     )
 }

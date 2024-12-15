@@ -2,71 +2,74 @@ export default {
   hello: 'Hello',
   questionss: 'Questions? We\'ve got',
   answerss: 'Answers',
-  defilement :"Try it for free",
-  futur :{
-  where:'Where power meets',
-  simplicity: 'simplicity',
-  achieved:"We've achieved",
-  incredible:"incredible",
-  growth:"growth this year",
-    },
-  futurs :{
-    titre :{
-       titles1 :{
-           title:"teams collaborations" ,
-           description:"Work together seamlessly with conflict-free team editing",
-       },
-       title2 :{
-         title:"Interact Prototype ",  
-        description:"Engage your clients with prototypes that react to user actions",
-       },
-    
-       title3:{
-         title:"Keyboard Quick Actions",
-        description:"Powerful commands to help you create designs more quickly",
-       },
+  defilement: "Try it for free",
+  futur: {
+    where: 'Where ideas meet opportunities',
+    simplicity: 'simplicity',
+    achieved: "We've achieved",
+    incredible: "incredible",
+    growth: "growth this year",
+  },
+  futurs: {
+    titre: {
+      titles1: {
+        title: "Team Collaborations",
+        description: "Work together seamlessly to create, share, and sell with ease.",
+      },
+      title2: {
+        title: "Interactive Prototypes",
+        description: "Engage your customers with prototypes that connect to real actions.",
+      },
+      title3: {
+        title: "Quick Actions",
+        description: "Powerful shortcuts to boost your creativity and productivity.",
+      },
     },
   },
   landing: {
     faq: {
       faqs: {
-        question: "How is Layers different from other design tools?",
-        answer: "Unlike traditional design tools, Layers prioritizes speed and simplicity without sacrificing power. Our intelligent interface adapts to your workflow, reducing clicks and keeping you in your creative flow.",
+        question: "What makes Ndaya different from other platforms?",
+        answer: "Unlike other platforms, Ndaya integrates social commerce, design, and collaboration tools in one place, making it easy for users to create and sell effortlessly.",
       },
       faqs2: {
-        question: "Is there a learning curve?",
-        answer: "Layers is designed to feel intuitive from day one. Most designers are productive within hours, not weeks. We also provide interactive tutorials and comprehensive documentation to help you get started.",
+        question: "Is Ndaya easy to use?",
+        answer: "Ndaya is intuitive from the first click. Most users start creating and selling within minutes, thanks to interactive tutorials and a clean interface.",
       },
       faqs3: {
-        question: "How do you handle version control?",
-        answer: "Every change in Layers is automatically saved and versioned. You can review history, restore previous versions, and create named versions for important milestones.",
+        question: "Can I track my progress on Ndaya?",
+        answer: "Yes, Ndaya provides tools to manage your projects, track sales, and review history, ensuring that you stay on top of your workflow.",
       },
       faqs4: {
-        question: "Can I work offline?",
-        answer: "Yes! Layers includes a robust offline mode. Changes sync automatically when you're back online, so you can keep working anywhere.",
+        question: "Can I use Ndaya offline?",
+        answer: "Absolutely! Ndaya includes a robust offline mode that syncs your work automatically when you're back online.",
       },
       faqs5: {
-        question: "How does Layers handle collaboration?",
-        answer: "Layers is built for collaboration. You can invite team members to your projects, share feedback, and work together in real-time.",
+        question: "Is collaboration easy on Ndaya?",
+        answer: "Yes! Ndaya is built for teamwork. You can invite collaborators, share feedback, and work together in real-time across devices.",
       },
     },
   },
-    footer: {
-      alloco: "Alloco",
-      privacyPolicy: "Privacy Policy",
-      termsConditions: "Terms & Conditions",
-    },
-     hero: {
-        phrase: "Over 1,000,000✨ users",
-        impactful: "Impactful design, created effortlessly",
-        termes: "This is gibberish & please do not take it seriously, it's a great test for my web application, thank you for understanding.",
-        Signup: "Sign up",
-      },
-
-    integrate:{
-      play :'Play well will',
-      over:'others',
-      layers:'Layers seamssly  connect with your favorite tool, marking a easy to plug into any woerkflows and collaborate accros plateformes ',
-    },
-    
+  footer: {
+    alloco: "Alloco",
+    privacyPolicy: "Privacy Policy",
+    termsConditions: "Terms & Conditions",
+  },
+  hero: {
+    phrase: "Join over 1,000,000✨ creators",
+    impactful: "Impactful design, created to sell effortlessly with Ndaya.",
+    termes: "Empower your ideas, connect with your customers, and transform creativity into success.",
+    signup: "Sign up",
+  },
+  integrate: {
+    play: 'Play seamlessly with',
+    over: 'your workflow',
+    layers: "Ndaya connects effortlessly with your favorite tools, making it easy to plug into any workflow and collaborate across platforms.",
+  },
+  introduction: {
+    tagline: "Introducing Ndaya",
+    heading: "Your creative process deserves better.",
+    text: `You're racing to create exceptional content and grow your audience, but traditional tools slow you down with unnecessary complexity and steep learning curves.`,
+    subheading: "That's why we built Ndaya.",
+  },
 };

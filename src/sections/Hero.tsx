@@ -1,8 +1,8 @@
 "use client";
 
 import Button from "@/components/button"
-import designExemple1Image from "@/assets/images/design-example-1.png"
-import designExemple2Image from "@/assets/images/design-example-2.png"
+import designExemple1Image from "@/assets/images/image.png"
+import designExemple2Image from "@/assets/images/image1.png"
 import Image from "next/image";
 import Pointer from "@/components/pointer";
 import { motion, useAnimate } from 'framer-motion'
@@ -49,10 +49,10 @@ export default function Hero() {
            {opacity: 1 },
            { duration: 0.5, delay: 1.5},
         ],
-        [rightPointerScope.current, {x:270 ,  y : 50},{duration: 0.5 }],
+        [rightPointerScope.current, {x:-220 ,  y : 80},{duration: 0.5 }],
         [
           rightPointerScope.current,
-           { x :-220, y : [-50 ,-50 , 100] },
+           { x :-220, y : 90},
            {duration: 0.5 }
           ],
       ]);
@@ -69,14 +69,13 @@ export default function Hero() {
                      ref={leftDesignScope} 
                      initial = {{opacity:0 , y:100, x:-100 }}
                      drag
-                     className="absolute -left-32 top-16 hidden lg:block"
+                     className="absolute left-4 top-20 hidden lg:block"
                   >
-                   <Image  src={designExemple1Image}  alt="photo 1 design" draggable = 'false'/>
+                   <Image  src={designExemple1Image}  alt="photo 1 design" draggable = 'false' className="w-48 h-auto"/>
                           <motion.div
                            ref={leftPointerScope} 
                            initial = {{opacity:0 , y:100, x:-200 }}
-                           className="absolute left-56 top-96 hidden lg:block">
-                            
+                           className="absolute left-24 top-24 hidden lg:block">
                            <Pointer name="ndaya"/>
                           </motion.div>
                  </motion.div>
@@ -84,16 +83,17 @@ export default function Hero() {
                   {/*pour le cadre photo de droite */}
                  <motion.div 
                      ref={rightDesignScope}
-                     initial = {{opacity:0 , y:100, x:100 }}
+                     initial = {{opacity:0 , y:-100, x:100 }}
                      drag
-                   className="absolute -right-64 -top-16 hidden lg:block"
+                   className="absolute right-4 -top-16 hidden lg:block"
                    >
-                    <Image src={designExemple2Image} alt="photo 2 du design" draggable="false"/> 
+                    <Image src={designExemple2Image} alt="photo 2 du design" draggable="false" className="w-48 h-auto"/> 
                      <motion.div 
                           ref={rightPointerScope}
-                          initial = {{opacity:0 , x:5 , y:100 }}
-                           className="absolute right-80 -top-4 hidden lg:block">
-                           <Pointer name="creations " color="purple"/>
+                          initial={{ opacity: 0, x: -100, y: 200 }} /* Départ depuis une diagonale */
+                          
+                           className="absolute right-4 -top-24 hidden lg:block">
+                           <Pointer name="users" color="purple"/>
                       </motion.div>
                  </motion.div>
 
@@ -116,7 +116,7 @@ export default function Hero() {
                     variant="primary"
                      className="whitespace-nowrap" 
                      size="sm">
-                      {heroT('Signup')}</Button>
+                      {heroT('signup')}</Button>
                   </form>
                </div>
         </section>
