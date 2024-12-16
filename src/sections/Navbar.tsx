@@ -84,7 +84,7 @@ export default function Navbar() {
                              </line>
                         </svg>
                         <Button variant="secondary" className="hidden md:inline-flex items-center">Connection</Button>
-                        <Button variant="primary" className="hidden md:inline-flex items-center">Inscription</Button>
+                        <Button   className="hidden md:inline-flex items-center btn_primary text-blanc-pur" variant={"primary"}>Inscription</Button>
                     </div>
                 </div>
                   <AnimatePresence>
@@ -104,7 +104,7 @@ export default function Navbar() {
                             </a>
                         ))}
                         <Button variant="secondary">Connection</Button>
-                        <Button variant="primary">Inscription</Button>
+                        <Button className="btn_primary text-blanc-pur" variant={"primary"}>Inscription</Button>
                         </div>
                     </motion.div>
                     )}

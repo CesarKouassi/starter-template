@@ -1,3 +1,4 @@
+'use client'
 import Navbar from "@/sections/Navbar";
 import Hero from "@/sections/Hero";
 import LogoTicker from "@/sections/LogoTicker";
@@ -8,25 +9,23 @@ import Faqs from "@/sections/Faqs";
 import CallToAction from "@/sections/CallToAction";
 import Footer from "@/sections/Footer";
 import FeaturesApp from "@/components/FeaturesApp";
-
-
-
-export default   function Home() {
-
-    return (
-
+import Heroo from "@/sections/Heroo";
+import TopCreator from "@/sections/TopCreator";
+export default function Home() {
+  return (
         <>
-       {/* < LocaleSelect /> */}
-        <Navbar />
-        <Hero />
-        <LogoTicker /> 
-        <Introduction />
-        <Features />
-        <FeaturesApp />
-        <Integrations />
-        <Faqs />
-        <CallToAction />
-        <Footer />
-        </>
-    )
+          <Navbar />
+          <Hero />
+          <LogoTicker />
+          <Heroo />
+          <Introduction />
+          <Features />
+          <FeaturesApp />
+          <Integrations />
+          <TopCreator />
+          <Faqs />
+          <CallToAction />
+          <Footer />
+    </>
+  );
 }
